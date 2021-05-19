@@ -1,15 +1,11 @@
 #include <stdio.h>
-
 int main()
 {
-    
     int i, type, j, k, m=1, rows;
-   
     printf("Enter type of pattern (1 or 2) ");
     scanf("%d", &type);
     printf("Number of rows ");
     scanf("%d", &rows);
-    
     if (type ==1)
     {
         for (i = rows; i >= 1; --i)
@@ -21,7 +17,6 @@ int main()
             printf("\n");
         }
     }
-    
     else if (type ==2)
     {
         for(i=rows;i>=1;i--)  
