@@ -18,11 +18,11 @@ void pyth(float num1, float num2, float num3)
 int main()
 {
     float a, b, c, num1, num2, num3;
-    printf("Side 1 ");
+    printf("side 1 ");
     scanf("%f", &a);
-    printf("Side 2 ");
+    printf("side 2 ");
     scanf("%f", &b);
-    printf("Side 3 ");
+    printf("side 3 ");
     scanf("%f", &c);
     
     if (a<b)
